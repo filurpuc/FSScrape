@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Mittan.FS
 {
-    interface IFSParser
+    public interface IFSParser
     {
         Pass ParsePass(string html);
-        List<Pass> ParseSchema(string html);
+        IList<Pass> ParseSchema(string html);
     }
 }

@@ -71,6 +71,21 @@ namespace Mittan.FS
             return doc;
         }
 
+        private IList<Pass> GetAllaPass()
+        {
+            string filename = @"tmp\Spinningpass.html";
+            IFSParser parser = new FSHtmlParser();
+            IList<Pass> pass = new List<Pass>();
+            WebRequest request = WebRequest.Create(AllaPass);
+            WebResponse response = request.GetResponse();
+            Stream stream = response.GetResponseStream();
+            StreamReader sr = new StreamReader(stream, Encoding.Default);
+            string html = sr.ReadToEnd();
+
+            stream.Close();
+            return parser.ParseSchema(html);
+        }
+
         private Pass GetPass(int passid, string lokal)
         {
             WebRequest request = WebRequest.Create(string.Format(Passdetaljer, passid, lokal));
@@ -83,7 +98,8 @@ namespace Mittan.FS
             return parser.ParsePass(html);
         }
 
-        private void test()
+
+        private void GetPassTest(int id, string lokal)
         {
             string filename = @"tmp\Spinningpass.html";
 
@@ -99,7 +115,7 @@ namespace Mittan.FS
 
             for (int i = 0; i < 100; i++)
             {
-                pass = GetPass(7260616, "HO");
+                pass = GetPass(id, lokal);
                 Trace.WriteLine("i=" + i + "\t" + DateTime.Now);
                 if (pass.Bokningar < pass.MaxBokningar)
                 {
@@ -126,7 +142,8 @@ namespace Mittan.FS
 
             FSScrape fs = new FSScrape();
 
-            fs.test();
+            //fs.GetPassTest(8301689, "LI");
+            fs.GetAllaPass();
 
             Trace.WriteLine("Done!");
         }

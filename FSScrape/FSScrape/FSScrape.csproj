@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="FSHtmlParser.cs" />
     <Compile Include="FSScrapeMain.cs" />
+    <Compile Include="Http\HttpService.cs" />
+    <Compile Include="Http\IHttpService.cs" />
     <Compile Include="IFSParser.cs" />
     <Compile Include="Pass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +67,7 @@
     <Content Include="Tmp\SökSpinningpass.html" />
     <Content Include="Tmp\AllaPass.html" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
