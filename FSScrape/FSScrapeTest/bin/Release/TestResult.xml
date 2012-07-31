@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrapeTest.exe" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-04-15" time="07:28:34">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.261" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release" machine-name="BLUE" user="patrik" user-domain="blue" />
+  <culture-info current-culture="sv-SE" current-uiculture="sv-SE" />
+  <test-suite type="Assembly" name="C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrapeTest.exe" executed="True" result="Failure" success="False" time="0.998" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="FSScrapeTest" executed="True" result="Failure" success="False" time="0.998" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="FSParserFixture" executed="True" result="Failure" success="False" time="0.983" asserts="0">
+            <results>
+              <test-case name="FSScrapeTest.FSParserFixture.ParseSchema_ValidSchema" executed="True" result="Failure" success="False" time="0.967" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[vid FSScrapeTest.FSParserFixture.ParseSchema_ValidSchema() i C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\FSParserFixture.cs:rad 21
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TestFixture1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="FSScrapeTest.TestFixture1.TestFault" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="FSScrapeTest.TestFixture1.TestTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

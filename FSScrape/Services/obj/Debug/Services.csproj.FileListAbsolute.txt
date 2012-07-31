@@ -1,0 +1,5 @@
+C:\workspaces.net\FSScrape\FSScrape\Services\obj\Debug\ResolveAssemblyReference.cache
+C:\workspaces.net\FSScrape\FSScrape\Services\bin\Debug\Services.dll
+C:\workspaces.net\FSScrape\FSScrape\Services\bin\Debug\Services.pdb
+C:\workspaces.net\FSScrape\FSScrape\Services\obj\Debug\Services.dll
+C:\workspaces.net\FSScrape\FSScrape\Services\obj\Debug\Services.pdb

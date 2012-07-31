@@ -1,0 +1,15 @@
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\Tmp\Spinningpass.html
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\Tmp\AllaPass1.html
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrapeTest.exe
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrapeTest.pdb
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrape.exe
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\nunit-console-runner.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\nunit.framework.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\HtmlAgilityPack.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\nunit.util.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\nunit.core.interfaces.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\nunit.core.dll
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\bin\Release\FSScrape.pdb
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\obj\x86\Release\FSScrapeTest.exe
+C:\workspaces.net\FSScrape\FSScrape\FSScrapeTest\obj\x86\Release\FSScrapeTest.pdb
